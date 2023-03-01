@@ -1,0 +1,116 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+* {
+	margin: 0;
+	padding: 0;
+}
+.content {
+	padding: 10px;
+	margin: auto;
+	margin-top: 40px;
+	width: 600px;
+	text-align:center;
+	border-radius: 20%;
+}
+.login{
+	width: 300px;
+	border:1px solid black;
+	background: linear-gradient(to bottom right, #FFF,#999);
+}
+.leftCol {
+	float:left;
+	width: 300px;
+}
+.rightCol {
+	float: left;
+	width: 300px;
+	text-align: center;
+}
+.rightCol * {
+	margin-bottom:10px;
+}
+.rightCol h4 {
+	margin-bottom: 30px;
+}
+.rightCol input{
+	margin: 10px 0;
+}
+.rightCol input[type=text], input[type=password] {
+	border: 0;
+	height: 25px;
+	width: 200px;
+}
+.rightCol input[type=submit]{
+	padding: 10px 20px;
+	margin-top: 5px;
+	background:#090;
+	color:#FFFFFF;
+	border:0;
+	border-radius: 8px;
+}
+.errorText{
+	color:#F00;
+	padding: 20px;
+}
+.login .textInput{
+	width: 200px;
+	height: 30px;
+	line-height:30px;
+	border: 0;
+	padding: 0 10px;
+	margin: 5px;
+}
+.login input[type=submit]{
+	padding: 10px 20px;
+	margin-top: 10px;
+	color:#FFFFFF;
+	border:0;
+	border-radius: 8px;
+	cursor: pointer;
+}
+.btnLogin{
+	background:#090;
+}
+.login btnLogin:hover{
+	transform:scale(1.1, 1.1);
+	background:#080;
+}
+.login h4{
+	padding: 40px 0;
+}
+.profile{
+	width: 800px;
+	border: 1px solid black;
+}
+.profileColLeft{
+	width: 200px;
+	float: left;
+}
+.profileColLeft p,h4{
+	margin: 5px;
+}
+.profilePerInfo{
+	text-align:left;
+	margin: 20px 0; 
+}
+.btnRegis{
+	background:0;
+	border:0;
+	text-decoration:underline;
+	font-size: 14px;
+}
+.profileColLeft input[type=submit]{
+	padding: 10px 20px;
+	margin-top: 10px;
+	color:#CCCCCC;
+	border:0;
+	font-weight: bolder;
+	border-radius: 8px;
+	cursor: pointer;
+	background:#06C;
+}
+.profileColLeft img{
+	border-radius: 50%;
+}
