@@ -1,0 +1,202 @@
+/*Phần Container*/
+.container{
+	width: 1000px;
+	height: 1000px;
+	margin: 0 auto;
+	padding: 0px;
+}
+
+
+/*Phần Header*/
+
+.header{
+	width: 1000px;
+	height: 100px;
+}
+
+.header .menu_course table{
+	background-color: red;
+}
+.header .menu_course
+{
+	display: none;
+	position: absolute;
+	bottom:  0;
+	background-color: blue;
+	z-index: 999;
+}
+
+.header div:hover .menu_course
+{
+	display: block;
+}
+.header #frmSearch{
+	width: 200px;
+	height: 40px;
+	position: relative;
+}
+.header div{
+	position: relative;
+	width: 150px;
+	height: 40px;
+	background-color: black;
+	display: inline-block;
+}
+.header input{
+	width: 200px;
+	height: 40px;
+	padding-left: 20px;
+}
+.header>img{
+	display: inline-block;
+}
+.header form {
+	display: inline-block;
+}
+
+.header form [type=button]
+{
+	width: 100px;
+	height: 40px;
+}
+
+.icon{
+	position: absolute;
+	top: 13px;
+	right: 5px;
+
+}
+
+
+/*Phần Menu chính*/
+.mainmenu
+{
+	width: 1000px;
+	height: 300px;
+	background: gray;
+}
+.mainmenu p{
+	text-align: center;
+}
+.mainmenu form input[type=button]{
+	width: 105px;
+	margin: 5px;
+	height: 40px;
+}
+.mainmenu #frmSearchMain{
+	position: relative;
+	width: 500px;
+	height: 40px;
+}
+.mainmenu form{
+	width: 600px;
+	height: 40px;
+	margin: auto;
+}
+.mainmenu form input{
+	width: 500px;
+	height: 40px;
+}
+
+
+
+/*Phần Slide Menu*/
+.slidemenu{
+	width: 1000px;
+	height: 300px;
+	background:red;
+}
+
+/*Phần Content*/
+.content{
+	width: 1000px;
+	height: 100%;
+	background:yellow;
+}
+
+.content p{
+	text-align: center;
+}
+
+
+.content .divView
+{
+	width: 230px;
+	height: 350px;
+	margin: 10px;
+	float: left;
+	background: red;
+}
+.content .divView .dvTop img{
+	width: 230px;
+	height: 100px;
+}
+
+.content .divView .dvMid
+{
+	width: 200px;
+	height: 150px;
+}
+.content .divView .dvBottom{
+	width: 200px;
+	height: 100px;
+}
+.content .divView .dvBottom h3{
+	float: left;
+	margin-right: 20px;
+}
+
+
+
+/*Phần Danh Mục Khóa Học*/
+
+.divCourse{
+	width: 710px;
+	margin: auto;
+	height: 300px;
+}
+
+.divCourse .courseView{
+width: 140px;
+height: 100px;
+float: left;
+background-color: gray;
+position: relative;
+border: solid 1px black;
+
+}
+
+.divCourse p{
+	text-align: center;
+}
+.divCourse .courseView p{
+text-align: center;
+}
+
+.divCourse .courseView img{
+text-align: center;
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+margin: auto;
+}
+.divCourse .courseView:hover{
+	background-color: green;
+}
+/*Phần Footer*/
+.footer{
+	width: 1000px;
+	height: 100px;
+	background:gray;
+}
+.footer p{
+	text-align: center;
+}
+
+
+
+
+
+
